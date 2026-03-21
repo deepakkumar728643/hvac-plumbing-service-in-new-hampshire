@@ -1,0 +1,50 @@
+User-agent: *
+Allow: /
+
+# Core pages
+Allow: /index.html
+Allow: /about.html
+Allow: /contact.html
+
+# Service pages (both URL structures)
+Allow: /services/
+Allow: /plumbing-repair-in-new-hampshire/
+Allow: /drain-cleaning-in-new-hampshire/
+Allow: /water-heater-services-in-new-hampshire/
+Allow: /hvac-installation-in-new-hampshire/
+Allow: /hvac-repair-in-new-hampshire/
+Allow: /ac-services-in-new-hampshire/
+Allow: /heating-services-in-new-hampshire/
+Allow: /gas-line-services-in-new-hampshire/
+Allow: /sewer-line-services-in-new-hampshire/
+Allow: /pipe-installation-in-new-hampshire/
+Allow: /emergency-plumbing-in-new-hampshire/
+Allow: /bathroom-remodeling-in-new-hampshire/
+
+# Region hub pages
+Allow: /manchester-nh/
+Allow: /nashua-nh/
+Allow: /concord-nh/
+Allow: /dover-nh/
+Allow: /portsmouth-nh/
+Allow: /keene-nh/
+Allow: /derry-nh/
+Allow: /laconia-nh/
+Allow: /bedford-nh/
+Allow: /merrimack-nh/
+Allow: /londonderry-nh/
+Allow: /salem-nh/
+
+# Region pages (legacy)
+Allow: /regions/
+
+# Blog
+Allow: /blog/
+
+# Disallow internal/dev files
+Disallow: /css/
+Disallow: /{css,js,images,pages
+Disallow: /{regions,services,blog,legal}/
+Disallow: /pages/
+
+Sitemap: https://www.plumbinghvacservicesnewhhampshire.com/sitemap.xml
