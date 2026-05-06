@@ -3,8 +3,8 @@
 
 import os
 
-PHONE = "(603) 555-0192"
-PHONE_LINK = "tel:+16035550192"
+PHONE = "(877) 837-4514"
+PHONE_LINK = "tel:+18778374514"
 
 def nav(active="services"):
     return '''<div class="top-bar"><div class="container"><div>📍 Serving All of New Hampshire | Licensed &amp; Insured | 24/7 Emergency</div><a href="''' + PHONE_LINK + '''" class="phone-cta">📞 ''' + PHONE + '''</a></div></div>
